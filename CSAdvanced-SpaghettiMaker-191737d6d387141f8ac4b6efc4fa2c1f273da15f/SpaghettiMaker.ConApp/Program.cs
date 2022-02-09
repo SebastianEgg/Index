@@ -12,7 +12,7 @@ namespace SpaghettiMaker.ConApp
             Console.WriteLine();
             var watch = new Stopwatch();
             watch.Start();
-            var dishes = await SpaghettiMakerv2.MakeAsyncNew();
+            var start = DinnerMakerAsync.MakeAsync();
             watch.Stop();
 
             Console.WriteLine();
